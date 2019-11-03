@@ -1,0 +1,6 @@
+const div = dom.create('<div>newDiv</div>')
+console.log(div)
+dom.after(test, div)
+const div2 = dom.create('<div id = “parent”></div>')
+dom.warp(test, div2)
+console.log(div2)
